@@ -10,12 +10,12 @@ This project provides functions for processing, transforming, and visualizing oc
 
 Ensure you have the following libraries installed:
 
-    Pandas
-    NumPy
-    Xarray
-    Matplotlib
-    Cartopy
-    SciPy
+- **Pandas**
+- **NumPy**
+- **Xarray**
+- **Matplotlib**
+- **Cartopy**
+- **SciPy** 
 
 Install them with:
 
