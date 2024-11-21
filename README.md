@@ -22,6 +22,10 @@ This project provides functions for processing, transforming, and visualizing oc
 
 **Access link to the certificate**: https://cert.scichain.cn/scidb/2023/08/11/1078085787.en.v1.pdf
 
+# Cite this data as
+
+Rodriguez, A., Abreu, M., Dailin Reyes, Abreu, M., Calzada, A. E., Varona, H. L., Noriega, C., & Moacyr Araujo. (2023). Thermal Efficiency Dataset Around Cuban Seas (TEDACS) (Version V1) [Dataset]. Science Data Bank. https://doi.org/10.57760/SCIENCEDB.10037 
+
 # Dependencies
 
 Ensure you have the following libraries installed:
