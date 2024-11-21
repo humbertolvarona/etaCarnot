@@ -203,9 +203,9 @@ This project was developed by **Humberto L. Varona**. For questions or inquiries
 
 ---  
 
-## Author
+## LICENSE
 
-
+This software has been developed under **CC-BY-NC-4.0 license**.
 
 ---
 
