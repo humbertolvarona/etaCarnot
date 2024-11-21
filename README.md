@@ -100,4 +100,31 @@ process_and_save_all_years(1993, 2019, 763.333, base_input_path, output_file)
 
 ---
 
+## 4. `plot_eta_map(eta_2d, longitude, latitude, title="Map of Eta", colormap="viridis", cb_orientation="vertical", font_sizes=None, value_range=None, save_path=None)`
+
+Plots a map of $\eta_{\mathrm{Carnot}}$ with customizable features.
+
+#### Parameters:
+
+- **`eta_2d`**: 2D data (latitude, longitude).
+- **`longitude`**: Longitude coordinates.
+- **`latitude`**: Latitude coordinates.
+- **`title`**: Map title.
+- **`colormap`**: Colormap to use.
+- **`cb_orientation`**: Colorbar orientation.
+- **`font_sizes`**: Dictionary for customized font sizes.
+- **`value_range`**: Value range for the plot.
+- **`save_path`**: Path to save the image.
+
+### Returns:
+
+    None
+    
+#### Example:
+
+```python
+
+```
+
+---  
 
