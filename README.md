@@ -28,9 +28,9 @@ Rodriguez, A., Abreu, M., Dailin Reyes, Abreu, M., Calzada, A. E., Varona, H. L.
 
 These data Data and this software are made available under the terms of the Creative Commons Attribution 4.0 International License (CC-BY 4.0).
 
-Software for the creation of the ocean thermal efficiency database:
+Software for the creation of the ocean thermal efficiency database (https://github.com/arp004/Thermal_Max_Efficiency):
 
-
+Rodriguez, A. (2023). Algorithms for the computation of maximum thermal efficiency (Version 1.0). Zenodo. https://doi.org/10.5281/ZENODO.10199298 
 
 # Dependencies
 
