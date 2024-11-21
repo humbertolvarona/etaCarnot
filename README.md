@@ -28,6 +28,10 @@ Rodriguez, A., Abreu, M., Dailin Reyes, Abreu, M., Calzada, A. E., Varona, H. L.
 
 These data Data and this software are made available under the terms of the Creative Commons Attribution 4.0 International License (CC-BY 4.0).
 
+Software for the creation of the ocean thermal efficiency database:
+
+
+
 # Dependencies
 
 Ensure you have the following libraries installed:
