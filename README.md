@@ -24,13 +24,17 @@ This project provides functions for processing, transforming, and visualizing oc
 
 # Cite this data as
 
-Rodriguez, A., Abreu, M., Dailin Reyes, Abreu, M., Calzada, A. E., Varona, H. L., Noriega, C., & Moacyr Araujo. (2023). Thermal Efficiency Dataset Around Cuban Seas (TEDACS) (Version V1) [Dataset]. Science Data Bank. https://doi.org/10.57760/SCIENCEDB.10037 
+Rodriguez, A., Abreu, M., Dailin Reyes, Abreu, M., Calzada, A. E., Varona, H. L., Noriega, C., & Moacyr Araujo. (2023). **Thermal Efficiency Dataset Around Cuban Seas (TEDACS)** (Version V1) [Dataset]. Science Data Bank. https://doi.org/10.57760/SCIENCEDB.10037 
 
 These data Data and this software are made available under the terms of the Creative Commons Attribution 4.0 International License (CC-BY 4.0).
 
 Software for the creation of the ocean thermal efficiency database (https://github.com/arp004/Thermal_Max_Efficiency):
 
-Rodriguez, A. (2023). Algorithms for the computation of maximum thermal efficiency (Version 1.0). Zenodo. https://doi.org/10.5281/ZENODO.10199298 
+Rodriguez, A. (2023). **Algorithms for the computation of maximum thermal efficiency**. (Version 1.0). Zenodo. https://doi.org/10.5281/ZENODO.10199298 
+
+## Associated publication
+
+Rodriguez, A., Abreu, M., Reyes, D., Abreu, M., Varona, H. L., Noriega, C., Calzada, A., & Araujo, M. (2024). **Thermal efficiency dataset around Cuban seas (TEDACS)**. In Open Research Europe (Vol. 4, p. 15). F1000 Research Ltd. https://doi.org/10.12688/openreseurope.16815.1 
 
 # Dependencies
 
@@ -196,6 +200,12 @@ plot_eta_map(eta, lon, lat, title="Date: Feb-1993, Depth: 763m", colormap="virid
 ## Author
 
 This project was developed by **Humberto L. Varona**. For questions or inquiries, contact **humberto.varona@ufpe.br**.
+
+---  
+
+## Author
+
+
 
 ---
 
