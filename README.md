@@ -6,6 +6,16 @@ Processing and Visualization of TEDACS Data
 
 This project provides functions for processing, transforming, and visualizing ocean thermal efficiency data ηCarnotηCarnot​ in NetCDF and CSV formats. It includes tools to handle multiple years of data, perform monthly calculations, and plot maps.
 
+# Data availability
+
+**Data name**: Thermal Efficiency Dataset Around Cuban Seas (TEDACS).
+**Version**: v1.0
+**Repository name**: Science Data Bank
+**Dataset DOI**:  10.57760/sciencedb.10037
+**Link to access the data**: https://www.scidb.cn/en/detail?dataSetId=c36d48ae4d5444e69458e9c80fea84dc
+**Publication date**: 2023-08-10
+**Access link to the certificate**: https://cert.scichain.cn/scidb/2023/08/11/1078085787.en.v1.pdf
+
 # Dependencies
 
 Ensure you have the following libraries installed:
