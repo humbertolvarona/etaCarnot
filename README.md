@@ -169,7 +169,7 @@ plot_eta_map(eta, lon, lat, title="Date: Feb-1993, Depth: 763m", colormap="virid
 
 ## Author
 
-This project was developed by **Humberto l. Varona**. For questions or inquiries, contact **humberto.varona@ufpe.br**.
+This project was developed by **Humberto L. Varona**. For questions or inquiries, contact **humberto.varona@ufpe.br**.
 
 ---
 
