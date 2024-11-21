@@ -158,10 +158,22 @@ time_index = get_time_index(nc_file, target_date)
 depth_index = 0
 
 eta, lon, lat = read_eta_at_time_and_depth(nc_file, time_index, depth_index)
+
 sp = "/DATASETS/TEDACS/outputs/figures/01_763m_1993-02.png"
+
 plot_eta_map(eta, lon, lat, title="Date: Feb-1993, Depth: 763m", colormap="viridis", cb_orientation="horizontal",
     font_sizes={"title": 14, "labels": 12, "colorbar": 12}, value_range=(0.55, 0.85, 15), save_path=sp)
 ```
 
 ---  
+
+## Author
+
+This project was developed by **Humberto l. Varona**. For questions or inquiries, contact **humberto.varona@ufpe.br**.
+
+---
+
+### Thank you for using this project! 😊 
+
+
 
