@@ -105,18 +105,26 @@ process_and_save_all_years(1993, 2019, 763.333, base_input_path, output_file)
 Reads a NetCDF file and extracts `eta` at a specific time and depth.
 
 ### Parameters:
+
 - **`file_path`**: Path to the NetCDF file.
 - **`time_index`**: Time index to read.
 - **`depth_index`**: Depth index to read.
 
 ### Returns:
 
-An `xarray.DataArray` containing the selected values.
+- **`eta`**: 2D data (latitude, longitude).
+- **`longitude`**: Longitude coordinates. 
+- **`latitude`**: Latitude coordinates.
 
 ### Example:
 
 ```python
-eta = read_eta_at_time_and_depth("data.nc", time_index=0, depth_index=0)
+nc_file = "/DATASETS/TEDACS/inputs/763m.nc"
+target_date = "1993-02-14"
+time_index = get_time_index(nc_file, target_date)
+depth_index = 0
+
+eta, lon, lat = read_eta_at_time_and_depth(nc_file, time_index, depth_index)
 ```
 
 ---   
@@ -147,8 +155,9 @@ Plots a map of $\eta_{\mathrm{Carnot}}$ with customizable features.
 nc_file = "/DATASETS/TEDACS/inputs/763m.nc"
 target_date = "1993-02-14"
 time_index = get_time_index(nc_file, target_date)
+depth_index = 0
 
-eta, lon, lat = read_eta_at_time_and_depth(nc_file, time_index, 0)
+eta, lon, lat = read_eta_at_time_and_depth(nc_file, time_index, depth_index)
 sp = "/DATASETS/TEDACS/outputs/figures/01_763m_1993-02.png"
 plot_eta_map(eta, lon, lat, title="Date: Feb-1993, Depth: 763m", colormap="viridis", cb_orientation="horizontal",
     font_sizes={"title": 14, "labels": 12, "colorbar": 12}, value_range=(0.55, 0.85, 15), save_path=sp)
