@@ -28,47 +28,36 @@ pip install pandas numpy xarray matplotlib cartopy scipy
 1. get_time_index(nc_file, target_date)
 
 Gets the time index closest to a specific date from a NetCDF file.
-Parameters:
 
-    nc_file: Path to the NetCDF file.
-    target_date: Target date in "YYYY-MM-DD" format.
+### Parameters
 
-Returns:
+- **`nc_file`**: Path to the NetCDF file.
+- **`target_date`**: Target date in "YYYY-MM-DD" format.
+
+### Returns:
 
     The time index as an integer.
 
-Example:
+### Example:
 
 ```python
 time_index = get_time_index("data.nc", "1993-02-14")
-```
-`process_multiple_years(input_dir, output_dir, start_year, end_year)`
-Processes multiple years of CSV data and saves the results as yearly NetCDF files.
-
-#### Parameters:
-- **`input_dir`**: Directory containing the input CSV files.
-- **`output_dir`**: Directory for the output NetCDF files.
-- **`start_year`**: Starting year.
-- **`end_year`**: Ending year.
-
-#### Example:
-```python
-process_multiple_years("input/", "output/", 1993, 2019)
 ```
 
 ---
 
 2. `process_multiple_years(start_year, end_year, depth, base_input_path, base_output_path)`
+
 Processes multiple years of CSV data and saves the results as yearly NetCDF files.
 
-#### Parameters:
+### Parameters:
 - **`input_dir`**: Directory containing the input CSV files.
 - **`output_dir`**: Directory for the output NetCDF files.
 - **`depth`**: Depth = [763., 910., 1062.44].
 - **`start_year`**: Starting year.
 - **`end_year`**: Ending year.
 
-#### Example:
+### Example:
 ```python
 base_input_path = "/DATASETS/TEDACS/inputs"
 base_output_path = "/DATASETS/TEDACS/outputs"
