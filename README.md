@@ -26,6 +26,8 @@ This project provides functions for processing, transforming, and visualizing oc
 
 Rodriguez, A., Abreu, M., Dailin Reyes, Abreu, M., Calzada, A. E., Varona, H. L., Noriega, C., & Moacyr Araujo. (2023). Thermal Efficiency Dataset Around Cuban Seas (TEDACS) (Version V1) [Dataset]. Science Data Bank. https://doi.org/10.57760/SCIENCEDB.10037 
 
+These data Data and this software are made available under the terms of the Creative Commons Attribution 4.0 International License (CC-BY 4.0).
+
 # Dependencies
 
 Ensure you have the following libraries installed:
