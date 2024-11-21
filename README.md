@@ -65,8 +65,8 @@ Processes multiple years of CSV data and saves the results as yearly NetCDF file
 ### Example:
 
 ```python
-base_input_path = "/DATASETS/TEDACS/inputs"
-base_output_path = "/DATASETS/TEDACS/outputs"
+base_input_path = "/DATASETS/TEDACS/inputs
+base_output_path = "/DATASETS/TEDACS/outputs
 
 process_multiple_years(1993, 2019, 1062.44, base_input_path, base_output_path)
 ```
@@ -92,8 +92,8 @@ Processes and saves data from multiple years as a NetCDF file.
 ### Example:
 
 ```python
-base_input_path = "/DATASETS/TEDACS/inputs"
-output_file = "/DATASETS/TEDACS/outputs"
+base_input_path = "/DATASETS/TEDACS/input
+output_file = "/DATASETS/TEDACS/outputs
 
 process_and_save_all_years(1993, 2019, 763.333, base_input_path, output_file) 
 ```
@@ -123,7 +123,14 @@ Plots a map of $\eta_{\mathrm{Carnot}}$ with customizable features.
 #### Example:
 
 ```python
+nc_file = "/DATASETS/TEDACS/inputs/763m.nc"
+target_date = "1993-02-14"
+time_index = get_time_index(nc_file, target_date)
 
+eta, lon, lat = read_eta_at_time_and_depth(nc_file, time_index, 0)
+sp = "/Figures_TEDACS/01_763m_1993-02.png"
+plot_eta_map(eta, lon, lat, title="Date: Feb-1993, Depth: 763m", colormap="viridis", cb_orientation="horizontal",
+    font_sizes={"title": 14, "labels": 12, "colorbar": 12}, value_range=(0.55, 0.85, 15), save_path=sp)
 ```
 
 ---  
