@@ -53,8 +53,8 @@ def process_csv_to_netcdf(input_file, output_file):
 
 def process_multiple_years(start_year, end_year, depth, base_input_path, base_output_path):
     for year in range(start_year, end_year + 1):
-        input_file = os.path.join(base_input_path, f"{year}_{depth}_MaxEficiency.txt")
-        output_file = os.path.join(base_output_path, f"{year}_{depth}_MeanMaxEficiency.nc")
+        input_file = os.path.join(base_input_path, f"{year}_{depth}_MaxEfficiency.txt")
+        output_file = os.path.join(base_output_path, f"{year}_{depth}_MeanMaxEfficiency.nc")
         if os.path.exists(input_file):
             print(f"Processing {input_file} -> {output_file}")
             process_csv_to_netcdf(input_file, output_file)
