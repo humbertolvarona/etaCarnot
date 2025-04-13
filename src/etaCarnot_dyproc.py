@@ -8,7 +8,7 @@ def read_and_concatenate_files(start_year, end_year, depth, base_input_path):
     data_list = []
 
     for year in range(start_year, end_year + 1):
-        input_file = os.path.join(base_input_path, f"{year}_{depth}_MaxEficiency.txt")
+        input_file = os.path.join(base_input_path, f"{year}_{depth}_MaxEfficiency.txt")
         if os.path.exists(input_file):
             print(f"Reading files: {input_file}")
             data = pd.read_csv(
